@@ -7,7 +7,7 @@ import {findFromAverage} from './utils/amountDays'
 import {findCorrelation} from './utils/correlation'
 import {loadData} from './api/loadData'
 import {obj} from 'api/loadData'
-import {saveData} from './api/saveData'
+//import {saveData} from './api/saveData'
 
 export default class App extends Component {
   constructor (props) {
@@ -61,7 +61,7 @@ export default class App extends Component {
     infoBody: 'Amount days the exchange rate was ' + 'withing 5% on the average exchange rate: ' + obj[currency].amountDays} })
   }
   saveData() {
-  saveData();
+  //saveData();
   this.setState({message: {infoHead: 'Data sent to the server and stored in "json" file', 
     infoBody: ''} })
   }
