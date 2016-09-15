@@ -21,7 +21,7 @@ In order to start using the application it is necessary to perform the following
 1. Before using this function it is required:
 
     - to uncomment the two lines in the file "App.js":
-    "import {saveData} from './SaveData'"  and  "saveData();"
+    "import {saveData} from './api/saveData'"  and  "saveData();"
     - In file "LoadJson.js" 
     Correct the two lines, which enter from which date (until today) we'll be downloading.
     Important! It should take a maximum of 5 years, if more then why not preserve such a size
